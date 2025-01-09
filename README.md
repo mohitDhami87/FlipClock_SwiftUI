@@ -71,8 +71,5 @@ To customize the appearance or behavior:
 
 This project was inspired by traditional flip clocks and aims to bring the nostalgic charm of flip digits into a modern app. Special thanks to the SwiftUI framework for simplifying declarative UI development.
 
----
-
-Feel free to contribute or suggest improvements by creating issues or pull requests in the GitHub repository.
 
 
