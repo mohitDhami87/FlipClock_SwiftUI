@@ -4,7 +4,7 @@ FlipClock is a visually appealing and functional clock application implemented u
 
 ## Screenshots
 
-![App Screenshot](FlipClock_SwiftUI/Screenshot/screenshot.png "Home Screen")
+![App Screenshot](FlipClock_SwiftUI/Screenshot/FlipClock.gif "Home Screen")
 
 ## Table of Contents
 
@@ -25,19 +25,19 @@ FlipClock is a visually appealing and functional clock application implemented u
 
 The project consists of the following main components:
 
-### 1. **ClockView** ([ClockView.swift](ClockView.swift))
+### 1. **ClockView**
 - Displays the complete clock interface with hours, minutes, and seconds.
 - Combines multiple `FlipView` components with separators (`:`).
 
-### 2. **FlipViewModel** ([ClockViewModel.swift](ClockViewModel.swift))
+### 2. **FlipViewModel**
 - Manages the time state and triggers updates for `FlipView` components.
 - Implements a timer to update time every second.
 
-### 3. **FlipView** ([FlipView.swift](FlipView.swift))
+### 3. **FlipView**
 - A single digit display with animated top and bottom halves.
 - Uses `SingleFlipView` for each half.
 
-### 4. **SingleFlipView** ([SingleFlipView.swift](SingleFlipView.swift))
+### 4. **SingleFlipView**
 - Renders individual halves of a flip digit.
 - Provides alignment and padding configurations for top and bottom segments.
 

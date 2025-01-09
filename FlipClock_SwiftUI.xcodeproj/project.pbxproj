@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91434BB82D300563002600FA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91434BB72D300563002600FA /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		91434B5A2D2E96C1002600FA /* FlipClock_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91434BB72D300563002600FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				91434B5C2D2E96C1002600FA /* FlipClock_SwiftUI */,
 				91434B5B2D2E96C1002600FA /* Products */,
+				91434BB72D300563002600FA /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91434BB82D300563002600FA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
