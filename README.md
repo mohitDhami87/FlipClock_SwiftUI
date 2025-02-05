@@ -47,7 +47,7 @@ To set up the FlipClock project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/FlipClock.git
+   git clone https://github.com/mohitDhami87/FlipClock.git
    ```
 2. Open the project in Xcode:
    ```bash
